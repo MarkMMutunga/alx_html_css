@@ -10,10 +10,20 @@
 <body class="works_on_smartphone">
 
   <header>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Tweets</a></li>
-    </ul>
+    <div class="nav-container">
+      <a href="index.html" class="logo">&#127760;</a>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -69,13 +79,43 @@
     </article>
 
     <aside>
-      <p>placeholder to add comment thread later</p>
+      <div class="sidebar-content">
+        <h3>💡 Quick Tips</h3>
+        <p>💻 Practice coding daily</p>
+        <p>🎯 Set clear goals</p>
+        <p>🤝 Join coding communities</p>
+        <p>📚 Never stop learning</p>
+        
+        <h3>🔗 Useful Links</h3>
+        <p><a href="https://www.alxafrica.com/" target="_blank">ALX Africa</a></p>
+        <p><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></p>
+        <p><a href="https://github.com/" target="_blank">GitHub</a></p>
+      </div>
     </aside>
   </main>
 
   <footer>
     <p>Made by Mark Mutunga - <a href="https://github.com/MarkMutunga" target="_blank">here</a>.</p>
   </footer>
+
+  <script>
+    // Hamburger menu functionality
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', function() {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close menu when clicking on a link
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+      });
+    });
+  </script>
 
 </body>
 </html>

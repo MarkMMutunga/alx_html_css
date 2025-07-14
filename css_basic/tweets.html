@@ -10,10 +10,20 @@
 <body class="works_on_smartphone">
 
   <header>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Tweets</a></li>
-    </ul>
+    <div class="nav-container">
+      <a href="index.html" class="logo">&#127760;</a>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -28,13 +38,42 @@
     </article>
 
     <aside>
-      <p>placeholder to add comment thread later</p>
+      <div class="sidebar-content">
+        <h3>📝 Coding Inspiration</h3>
+        <p>"Code is like humor. When you have to explain it, it's bad." - Cory House</p>
+        <p>"First, solve the problem. Then, write the code." - John Johnson</p>
+        <p>"The best error message is the one that never shows up." - Thomas Fuchs</p>
+        
+        <h3>🎯 Today's Focus</h3>
+        <p>✅ Practice HTML structure</p>
+        <p>⏳ Learn CSS styling</p>
+        <p>📅 Plan next project</p>
+      </div>
     </aside>
   </main>
 
   <footer>
     <p>Made by Mark Mutunga - <a href="https://github.com/MarkMutunga" target="_blank">here</a>.</p>
   </footer>
+
+  <script>
+    // Hamburger menu functionality
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', function() {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close menu when clicking on a link
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+      });
+    });
+  </script>
 
 </body>
 </html>
