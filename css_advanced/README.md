@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![SmileSchool Logo](./logo.png)
+<img src="./logo.png" alt="SmileSchool Logo" width="200" height="auto" />
 
 **Learn to Smile from the Pros!** 🌟
 
