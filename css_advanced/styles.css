@@ -324,6 +324,137 @@ img {
     font-weight: bold;
 }
 
+/* FREE MEMBERSHIP SECTION */
+.membership {
+    background-color: #071629;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.membership h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.membership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefit {
+    text-align: center;
+}
+
+.benefit img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+    object-fit: contain;
+}
+
+.benefit h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.benefit p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+}
+
+.join-btn {
+    background-color: #C271FF;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.join-btn:hover {
+    background-color: #9c5cd6;
+}
+
+/* FAQ SECTION */
+.faq {
+    background-color: white;
+    color: #071629;
+    padding: 80px 20px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #071629;
+    font-weight: 600;
+}
+
+.faq-item p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #071629;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    height: 30px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #cccccc;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header {
@@ -354,6 +485,30 @@ img {
         flex-direction: column;
         text-align: center;
         gap: 20px;
+    }
+    
+    /* Responsive design for membership section */
+    .membership-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 20px;
+    }
+    
+    .membership {
+        padding: 60px 20px;
+    }
+    
+    /* Responsive design for FAQ section */
+    .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .faq {
+        padding: 60px 20px;
+    }
+    
+    .faq-grid {
+        text-align: center;
     }
 }
 
