@@ -167,6 +167,74 @@ img {
     font-style: italic;
 }
 
+/* Reusable Selectors */
+.section {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.circle-img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* QUOTE SECTION */
+.quote-section {
+    background-color: #C271FF;
+    color: white;
+    padding: 60px 20px;
+}
+
+.quote-container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.quote-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.quote-section blockquote {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+.quote-section blockquote p {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.quote-section blockquote footer {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.quote-section blockquote footer span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 5px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header {
@@ -190,6 +258,13 @@ img {
     
     .tutor {
         max-width: 150px;
+    }
+    
+    /* Responsive design for quote section */
+    .quote-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
     }
 }
 
