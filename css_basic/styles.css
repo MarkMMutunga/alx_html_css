@@ -1,1 +1,29 @@
+﻿/* CSS Flexbox Layout for Positioning */
 
+/* Step 1 & 2: Make body a flex container with column direction */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Step 1 & 2: Make main a flex container with row direction */
+/* Step 3: Apply flex auto to main for automatic height and width */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Step 4: Article takes 2/3 of the width (2 boxes) */
+/* Step 5: Allow scrolling in article */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* Step 4: Aside takes 1/3 of the width (1 box) */
+/* Step 5: Allow scrolling in aside */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
