@@ -89,17 +89,19 @@
 ## 📁 Project Structure
 
 ```
-alx_html_css/
-├── css_basic/
-│   ├── index.html          # Main SmileSchool homepage
-│   ├── tweets.html         # Secondary page (legacy)
-│   ├── base.css           # CSS reset and base styles
-│   └── styles.css         # Advanced custom styling
-├── images/                # Image assets directory
-│   ├── instructors/       # Instructor profile images
-│   ├── tutorials/         # Tutorial thumbnails
-│   └── icons/            # SVG icons and graphics
-└── README.md             # Project documentation
+css_advanced/
+├── index.html          # Advanced SmileSchool homepage
+├── styles.css         # Advanced CSS with modern techniques
+├── README.md          # Project documentation
+├── logo.png           # SmileSchool logo
+├── Object.png         # Hero background image
+├── 1.png - 9.png      # Instructor and tutorial images
+├── rating.png         # Star rating image
+├── smile.png          # Membership benefit icon
+├── play.png           # Video play button icon
+├── 10 f.png           # Facebook social media icon
+├── 11 i.png           # Instagram social media icon
+└── 12 x.png           # X (Twitter) social media icon
 ```
 
 ---
@@ -254,7 +256,7 @@ Contributions are welcome! If you'd like to contribute to this project:
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/MarkMutunga__)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mark-mutunga-227968220/)
 
-**Project Repository:** [alx_html_css](https://github.com/MarkMMutunga/alx_html_css)
+**Project Repository:** [alx_html_css](https://github.com/MarkMMutunga/alx_html_css.git)
 
 </div>
 
@@ -262,15 +264,15 @@ Contributions are welcome! If you'd like to contribute to this project:
 
 ## 📄 License
 
-This project is part of the ALX Software Engineering Program and is created for educational purposes. 
+This project is part of my Personal projects 
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by Mark Mutunga**
+**Made with ❤️ by Mark Mikile Mutunga**
 
-*ALX Software Engineering Program - 2025*
+*ALX Frontend Developmet Program - 2025*
 
 ![ALX Logo](https://i.ibb.co/gTDZZT8/ALX-Logo-07.png)
 
