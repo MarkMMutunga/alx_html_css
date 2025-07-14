@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![SmileSchool Logo](https://fakeimg.pl/400x200/667eea/ffffff?text=SmileSchool&font=lobster)
+![SmileSchool Logo](./logo.png)
 
 **Learn to Smile from the Pros!** 🌟
 
