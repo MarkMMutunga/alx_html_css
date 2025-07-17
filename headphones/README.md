@@ -2,7 +2,7 @@
 
 Welcome to the **Headphones Landing Page** — a sleek, modern, and fully responsive web page built with pure HTML and CSS. Designed with elegance, clarity, and engagement in mind, this page showcases a fictional headphone brand through bold visuals, clean typography, and smooth user experience.
 
-This project is part of the [ALX Software Engineering Program](https://www.alxafrica.com/) and is inspired by a Figma UI mockup provided for frontend implementation practice.
+This project is part of the [ALX Frontend Engineering Program](https://www.alxafrica.com/) and is inspired by a Figma UI mockup provided for frontend implementation practice.
 
 ---
 
